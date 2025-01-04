@@ -22,7 +22,7 @@ public enum CoverImageSize
 
 public static class CoverImageSizeExtensions
 {
-    public static (int Width, int Height) GetDimensions(this CoverImageSize size)
+    public static (uint Width, uint Height) GetDimensions(this CoverImageSize size)
     {
         return size switch
         {
